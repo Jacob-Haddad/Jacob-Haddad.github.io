@@ -134,7 +134,7 @@ a {
   color: white;
   border: 2px solid white;
   border-radius: 100% !important;
-  background: transparent; }
+  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll; }
   .btn-circle:focus, .btn-circle:hover {
     color: white;
     outline: none;
