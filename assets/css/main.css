@@ -2032,22 +2032,23 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		video#bgvideo {
-		position: fixed;
-		top: 50%;
-		left: 50%;
-		min-width: 100%;
-		min-height: 100%;
-		width: auto;
-		height: auto;
-		z-index: -100;
-		-ms-transform: translateX(-50%) translateY(-50%);
-		-moz-transform: translateX(-50%) translateY(-50%);
-		-webkit-transform: translateX(-50%) translateY(-50%);
-		transform: translateX(-50%) translateY(-50%);
-		background: url(/images/us_postal.mp4) no-repeat;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		position: relative;
+		height: 24em;
+		background: url("../../images/banner.jpg") center center;
 		background-size: cover;
-
+		padding: 0;
 	}
 
 		#header:before {
